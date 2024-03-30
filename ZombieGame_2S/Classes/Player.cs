@@ -15,6 +15,12 @@ namespace ZombieGame_2S.Classes
 		{
 			Console.WriteLine($"[Player] Он бежит! Тип зомби {zombieType}");
 		}
-	}
+
+		public void ReactionOnZombieStop(Zombie zombie)
+		{
+			Console.WriteLine("[Player] Зомби остановился!");
+		}
+
+    }
 }
 
