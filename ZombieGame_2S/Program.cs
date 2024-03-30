@@ -9,8 +9,10 @@ internal class Program
 
         // подписка на событие
         zombie.Roared += player.ReactionOnZombieRoar;
+        zombie.Ran += player.ReactionOnZombieRun;
 
         zombie.Roar();
+        zombie.Run();
 
         Console.ReadLine();   // pause
     }
